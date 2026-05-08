@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+  
+ 
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  background-image: url("/images/mediback.avif");
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+
+}
+
+.navbar {
+  font-family: 'Poppins', sans-serif;
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.612);
+    backdrop-filter: blur(10px);
+    color: white;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+}
+/* .class-name to access the class */
+.navopt{
+    display: flex;
+    
+}
+ul li{
+    margin-left: 20px;
+    list-style: none;
+}
+ul li a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+ul li a:hover{
+    color: #0D47A1;
+     
+}
